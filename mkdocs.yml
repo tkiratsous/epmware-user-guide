@@ -2,7 +2,7 @@
 site_name: EPMware User Guide
 site_description: Comprehensive user guide for EPMware master data management and workflow tool
 site_author: EPMware, Inc.
-site_url: https://github.com/tkiratsous/epmware-user.git
+site_url: https://tkiratsous.github.io/epmware-user-guide/
 
 validation:
   nav:
