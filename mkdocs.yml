@@ -69,9 +69,6 @@ plugins:
 nav:
   - Home:
     - index.md
-    - Key Features: #key-features
-    - Documentation Sections: #documentation-sections
-    - About This Guide: #about-this-guide
   - Dashboard:
     - dashboard/index.md
     - Workflow Visualization: dashboard/#workflow-visualization
