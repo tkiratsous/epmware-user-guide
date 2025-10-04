@@ -1,0 +1,24 @@
+/* Collapsible Navigation for all sections */
+.md-nav__item--nested > .md-nav__link {
+  cursor: pointer;
+  position: relative;
+}
+
+/* Add arrow indicator for all collapsible sections */
+.md-nav__item--nested > .md-nav__link::after {
+  content: "▼";
+  position: absolute;
+  right: 0.8rem;
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+/* Rotate arrow when collapsed */
+.md-nav__item--nested.collapsed > .md-nav__link::after {
+  transform: rotate(-90deg);
+}
+
+/* Hide submenu when collapsed */
+.md-nav__item--nested.collapsed > .md-nav {
+  display: none;
+}

@@ -1,0 +1,124 @@
+# mkdocs.yml - All single pages with collapsible anchor navigation
+site_name: EPMware User Guide
+site_description: Comprehensive user guide for EPMware master data management and workflow tool
+site_author: EPMware, Inc.
+site_url: https://github.com/tkiratsous/epmware-user.git
+
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+  #- navigation.sections
+  - navigation.top
+  - navigation.tracking
+  - navigation.indexes     # ← Make sure this is here
+  - search.highlight
+  - search.share
+  - search.suggest
+  - content.code.copy
+  - content.tooltips
+  - navigation.footer
+  - toc.follow
+  - toc.integrate
+  
+  logo: assets/images/epmware-logo.png
+  favicon: assets/images/favicon.ico
+
+extra_css:
+  - assets/css/custom.css
+  
+#extra_javascript:
+ # - assets/js/custom.js
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+plugins:
+  - search:
+      lang: en
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+
+# Navigation structure - Main sections are labels, Overview links to index
+nav:
+  - Home:
+    - index.md
+    - Key Features: /#key-features
+    - Documentation Sections: /#documentation-sections
+    - About This Guide: /#about-this-guide
+  - Dashboard:
+    - dashboard/index.md
+    - Workflow Visualization: dashboard/#workflow-visualization
+    - Viewing Eligible Approvers: dashboard/#viewing-eligible-approvers
+    - Mass Approval: dashboard/#mass-approval
+    - Advanced Filter: dashboard/#advanced-filter
+    - Filter Options: dashboard/#filter-options
+  - Metadata Explorer:
+    - metadata-explorer/index.md
+    - Search Functionality: metadata-explorer/#search-functionality
+    - Member Properties: metadata-explorer/#member-properties
+    - Member History: metadata-explorer/#member-history
+    - Export Options: metadata-explorer/#export-and-print-options
+  - Metadata Requests:
+    - metadata-requests/index.md
+    - Request Header Definitions: metadata-requests/#request-header-definitions
+    - User Actions: metadata-requests/#user-actions
+    - Creating a Request: metadata-requests/#to-create-a-metadata-request
+    - Right Click Actions: metadata-requests/#right-click-member-actions
+    - Property Pane: metadata-requests/#property-pane
+    - Line Item Grid: metadata-requests/#line-item-grid
+    - User Comments: metadata-requests/#user-comments
+    - Activity Log: metadata-requests/#activity-log
+  - Deployment:
+    - deployment/index.md
+    - Monitor Tab: deployment/#monitor-tab
+    - Status Tracking: deployment/#deployment-status
+    - Grid Filter: deployment/#grid-filter-and-auto-refresh
+    - Status Legend: deployment/#status-legend
+  - Reports:
+    - reports/index.md
+    - Metadata Reports: reports/#metadata-reports
+    - Security Reports: reports/#security-reports
+    - Request Reports: reports/#request-reports
+    - Admin Reports: reports/#admin-reports
+    - Analytics Reports: reports/#analytics-reports
+    - Configuration Reports: reports/#configuration-reports
+    - Deployment Reports: reports/#deployment-reports
+    - ERP Import Reports: reports/#erp-import-reports
+    - Export Reports: reports/#export-reports
+  - Reference:
+    - reference/index.md
+    - Field Glossary: reference/#field-glossary
+    - Status Icons: reference/#status-icons
+    - Keyboard Shortcuts: reference/#keyboard-shortcuts
+extra:
+  copyright: |
+    © 2025 EPMware, Inc. All rights reserved. | 
+    <a href="https://www.epmware.com">www.epmware.com</a> | 
+    408-614-0442
