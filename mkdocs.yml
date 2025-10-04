@@ -69,9 +69,9 @@ plugins:
 nav:
   - Home:
     - index.md
-    - Key Features: index.md#key-features
-    - Documentation Sections: index.md#documentation-sections
-    - About This Guide: index.md#about-this-guide
+    - Key Features: epmware-user-guide\#key-features
+    - Documentation Sections: epmware-user-guide\#documentation-sections
+    - About This Guide: epmware-user-guide\#about-this-guide
   - Dashboard:
     - dashboard/index.md
     - Workflow Visualization: dashboard/#workflow-visualization
