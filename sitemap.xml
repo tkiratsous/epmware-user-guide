@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/tkiratsous/epmware-user.git/</loc>
+         <loc>https://tkiratsous.github.io/epmware-user-guide/</loc>
          <lastmod>2025-10-04</lastmod>
     </url>
     <url>
-         <loc>https://github.com/tkiratsous/epmware-user.git/dashboard/</loc>
+         <loc>https://tkiratsous.github.io/epmware-user-guide/dashboard/</loc>
          <lastmod>2025-10-04</lastmod>
     </url>
     <url>
-         <loc>https://github.com/tkiratsous/epmware-user.git/deployment/</loc>
+         <loc>https://tkiratsous.github.io/epmware-user-guide/deployment/</loc>
          <lastmod>2025-10-04</lastmod>
     </url>
     <url>
-         <loc>https://github.com/tkiratsous/epmware-user.git/metadata-explorer/</loc>
+         <loc>https://tkiratsous.github.io/epmware-user-guide/metadata-explorer/</loc>
          <lastmod>2025-10-04</lastmod>
     </url>
     <url>
-         <loc>https://github.com/tkiratsous/epmware-user.git/metadata-requests/</loc>
+         <loc>https://tkiratsous.github.io/epmware-user-guide/metadata-requests/</loc>
          <lastmod>2025-10-04</lastmod>
     </url>
     <url>
-         <loc>https://github.com/tkiratsous/epmware-user.git/reference/</loc>
+         <loc>https://tkiratsous.github.io/epmware-user-guide/reference/</loc>
          <lastmod>2025-10-04</lastmod>
     </url>
     <url>
-         <loc>https://github.com/tkiratsous/epmware-user.git/reports/</loc>
+         <loc>https://tkiratsous.github.io/epmware-user-guide/reports/</loc>
          <lastmod>2025-10-04</lastmod>
     </url>
 </urlset>
