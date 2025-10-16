@@ -67,7 +67,8 @@ plugins:
 
 # Navigation structure - Main sections are labels, Overview links to index
 nav:
-  - Home:
+  - Documentation Center: https://docs.epmware.com
+  - User Guide Home:
     - index.md
   - Dashboard:
     - dashboard/index.md
